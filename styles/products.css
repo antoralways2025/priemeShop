@@ -1,0 +1,29 @@
+.activeProduct {
+  border: 1px solid crimson !important;
+}
+
+.file_upload {
+  position: relative;
+  width: 24%;
+  height: 100px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.file_upload:nth-child(1) {
+  width: 400px !important;
+  height: 400px;
+  display: block;
+}
+
+.file_upload span {
+  position: absolute;
+  top: -7px;
+  right: -9px;
+  background-color: crimson;
+  color: white;
+  padding: 3px 7px;
+  border-radius: 50%;
+  font-weight: bolder;
+  cursor: pointer;
+}

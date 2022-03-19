@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  object-fit: cover !important;
+  object-position: 0 30%;
+}
+
+/* navbar style */
+@import url(./navbar.css);
+
+/* laodgin style */
+
+@import url(./laoding.css);
+
+/* products style */
+
+@import url(./products.css);
+
+/* Profile style */
+@import url("./profile.css");
+
+
+/* product csss */
+
+@import url('./product.css');

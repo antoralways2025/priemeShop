@@ -1,0 +1,14 @@
+.mainPartProfile {
+  transition: 0.3s ease-in-out;
+}
+
+.mainPartProfile:hover .hvrPartProfile {
+  opacity: 1;
+  bottom: 35%;
+}
+
+.hvrPartProfile {
+  opacity: 0;
+  bottom: 100%;
+  transition: 0.3s ease-in-out;
+}

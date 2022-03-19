@@ -1,0 +1,25 @@
+.active {
+  color: white !important;
+  text-decoration: underline;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.mainMenu {
+  transition: 0.5s !important;
+  position: relative;
+}
+.mainMenu:hover .sub {
+  display: block !important;
+  background-color: rgba(9, 30, 223, 0.911);
+  color: white;
+  position: absolute;
+  top: 30px;
+  transition: 0.5s;
+  width: 130px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-left: -14px !important;
+}
