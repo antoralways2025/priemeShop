@@ -205,7 +205,7 @@ function Cart() {
             </div>
 
 
- 
+
             <div className='p-4 shadow-lg shadow-violet-500 md:px-4'>
             <form className="w-full max-w-sm text-right " >
                 <h2 className='text-lg font-bold text-center uppercase md:text-3xl '>Shipping </h2>

@@ -143,7 +143,7 @@ const adminForNav=()=>{
 
 //  funcion for tgl button menu
 
- const [tglMenu,setTglMenu]=useState(false)
+ const [tglMenu,setTglMenu]=useState(true)
 
  const toggleMenu=()=>{
 
@@ -168,7 +168,7 @@ const adminForNav=()=>{
 
       <Link href='/' passHref>
     
-    <span      className="ml-2 text-xl font-semibold tracking-tight first-letter:text-3xl ">Prime Shopping</span> 
+    <span      className="ml-2 text-lg font-semibold tracking-tight cursor-pointer first-letter:text-3xl ">Prime Shopping</span> 
 
     </Link>
   </div> 
