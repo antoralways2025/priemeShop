@@ -168,7 +168,7 @@ const adminForNav=()=>{
 
       <Link href='/' passHref>
     
-    <span      className="ml-2 text-lg font-semibold tracking-tight cursor-pointer first-letter:text-3xl ">Prime </span> 
+    <span      className="ml-2 text-lg font-semibold tracking-tight cursor-pointer first-letter:text-3xl ">Prime Shopping </span> 
 
     </Link>
   </div> 
@@ -178,7 +178,7 @@ const adminForNav=()=>{
     <button onClick={toggleMenu} className="flex items-center px-3 py-2 text-teal-200 border border-teal-400 rounded hover:text-white hover:border-white">
       
 
-    {/* <svg className="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg> */}
+ 
       {
         tglMenu ? <ViewBoardsIcon  className="w-8 h-8 text-teal-600 duration-75 rotate-90 bg-white hover:-rotate-0"  />
           : <XCircleIcon   className="w-8 h-8 text-red-600 bg-white rounded-full" />
@@ -214,31 +214,33 @@ const adminForNav=()=>{
        
         
         
-            <li onClick={toggleMenu} className='relative' >
+       {
+         auth.user?.role !== 'admin' &&         <li onClick={toggleMenu} className='relative' >
 
     
     
 
-          <button
-           className='absolute p-1 text-teal-400 bg-white rounded-full dark:bg-red-700 -left-3 -top-2 md:-top-4 md:left-7'>
-        
-              { cart.length}
-  
+         <button
+          className='absolute p-1 text-teal-400 bg-white rounded-full dark:bg-red-700 -left-3 -top-2 md:-top-4 md:left-7'>
+       
+             { cart.length}
+ 
 
-          </button>
-        
-               <span className='uppercase' > 
-                
-              <ShoppingCartIcon className='inline-block w-8 h-10 text-4xl text-teal-500 bg-stone-600-800' />
-        
-              <Link href="/cart" >
-                <a  className={`text-sm text-gray-300 lg:m-2  relative  ${isActive('/cart')}` }>  Cart </a>
-              </Link>
-              
-                </span> 
-        
-              
-           </li>
+         </button>
+       
+              <span className='uppercase' > 
+               
+             <ShoppingCartIcon className='inline-block w-8 h-10 text-4xl text-teal-500 bg-stone-600-800' />
+       
+             <Link href="/cart" >
+               <a  className={`text-sm text-gray-300 lg:m-2  relative  ${isActive('/cart')}` }>  Cart </a>
+             </Link>
+             
+               </span> 
+       
+             
+          </li> 
+       }
         
 
 
