@@ -20,7 +20,7 @@ const initialState={
 
 
 
-function DataProvider({children}) {
+  function DataProvider({children}) {
 
     
     const [state,dispatch]=useReducer(reducer,initialState)  ;

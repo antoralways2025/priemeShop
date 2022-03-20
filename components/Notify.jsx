@@ -2,7 +2,7 @@ import { useTheme } from 'next-themes'
 import React, { useContext } from 'react'
 import Loading from '../components/Loading'
 import Toast from '../components/Toast'
-import { DataContext } from '../store/globaleState'
+import { DataContext } from '../store/GlobaleState'
 
 
 const Notify = () => {

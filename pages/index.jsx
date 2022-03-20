@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useContext, useEffect, useState } from 'react';
 import Filter from '../components/Filter';
 import ProductItem from '../components/Products/ProductItem';
-import { DataContext } from '../store/globaleState';
+import { DataContext } from '../store/GlobaleState';
 import { getData } from '../utils/FeatchData';
 import FilterSearch from '../utils/FilterSearch';
 

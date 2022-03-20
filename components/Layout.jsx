@@ -1,6 +1,6 @@
 import { ThemeProvider } from 'next-themes'
 import React, { useContext } from 'react'
-import { DataContext } from '../store/globaleState'
+import { DataContext } from '../store/GlobaleState'
 import ModalBox from './ModalBox'
 import Navbar from './Navbar'
 import Notify from './Notify'
@@ -11,7 +11,6 @@ const Layout = ({children}) => {
   
        const{modalShow}= state.modal[0]
 
-       
        
     return (
       

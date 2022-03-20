@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useContext, useState } from 'react';
-import { DataContext } from '../store/globaleState';
+import { DataContext } from '../store/GlobaleState';
 
 
 

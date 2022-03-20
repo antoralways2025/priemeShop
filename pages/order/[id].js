@@ -2,7 +2,7 @@
 import { useRouter } from 'next/router';
 import React, { useContext, useEffect, useState } from 'react';
 import ProductDetails from '../../components/ProductDetails';
-import { DataContext } from '../../store/globaleState';
+import { DataContext } from '../../store/GlobaleState';
 
 
 const OrderDetails = () => {

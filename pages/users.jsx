@@ -3,7 +3,7 @@ import { ChatAltIcon, CheckIcon, CogIcon, PencilAltIcon, XIcon } from '@heroicon
 import Head from 'next/head';
 import Link from 'next/link';
 import React, { useContext } from 'react';
-import { DataContext } from '../store/globaleState';
+import { DataContext } from '../store/GlobaleState';
 
 
 const Users = () => {

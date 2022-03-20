@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import React, { useContext } from 'react';
 import { deleteFromActions } from '../store/Actions';
-import { DataContext } from '../store/globaleState';
+import { DataContext } from '../store/GlobaleState';
 import { deleteData } from '../utils/FeatchData';
 
 

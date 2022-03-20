@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React, { useContext } from 'react';
 import { addToCart } from '../../store/Actions';
-import { DataContext } from '../../store/globaleState';
+import { DataContext } from '../../store/GlobaleState';
 
 
 const ProductItem = ({product ,handleCheck}) => {
@@ -11,8 +11,6 @@ const ProductItem = ({product ,handleCheck}) => {
 
 
 
- 
-  
 
 
   

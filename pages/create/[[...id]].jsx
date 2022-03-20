@@ -2,7 +2,7 @@
 /* eslint-disable react/jsx-key */
 import { useRouter } from 'next/router';
 import React, { useContext, useEffect, useState } from 'react';
-import { DataContext } from '../../store/globaleState';
+import { DataContext } from '../../store/GlobaleState';
 import { getData, patchData, postData } from '../../utils/FeatchData';
 import imageUploader from '../../utils/imageUploader';
 

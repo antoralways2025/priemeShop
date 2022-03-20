@@ -2,7 +2,7 @@ import { PencilAltIcon, XCircleIcon } from '@heroicons/react/solid';
 import Head from 'next/head';
 import React, { useContext, useState } from 'react';
 import { updateDataFromActios } from '../store/Actions';
-import { DataContext } from '../store/globaleState';
+import { DataContext } from '../store/GlobaleState';
 import { postData, putData } from '../utils/FeatchData';
 
 

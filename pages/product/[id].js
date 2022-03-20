@@ -2,7 +2,7 @@
 
 import React, { useContext, useState } from 'react';
 import { addToCart } from '../../store/Actions';
-import { DataContext } from '../../store/globaleState';
+import { DataContext } from '../../store/GlobaleState';
 import { getData } from '../../utils/FeatchData';
 
 

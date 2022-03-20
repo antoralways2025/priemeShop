@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useContext, useEffect, useState } from 'react';
 import CartItem from '../components/cart/CartItem';
-import { DataContext } from '../store/globaleState';
+import { DataContext } from '../store/GlobaleState';
 import { getData, postData } from '../utils/FeatchData';
 
 

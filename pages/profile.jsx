@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import React, { useContext, useEffect, useState } from 'react';
-import { DataContext } from '../store/globaleState';
+import { DataContext } from '../store/GlobaleState';
 import { patchData } from '../utils/FeatchData';
 // import { default as imageUploader, default as valid } from '../utils/valid';
 import imageUploader from '../utils/imageUploader';

@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef } from 'react';
 import { deleteFromOrder } from '../store/Actions';
-import { DataContext } from '../store/globaleState';
+import { DataContext } from '../store/GlobaleState';
 import { patchData } from '../utils/FeatchData';
 
 const PaypalBtn = ({order}) => {

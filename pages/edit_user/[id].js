@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React, { useContext, useEffect, useState } from 'react';
 import { updateDataFromActios } from '../../store/Actions';
-import { DataContext } from '../../store/globaleState';
+import { DataContext } from '../../store/GlobaleState';
 import { patchData } from '../../utils/FeatchData';
  
 
