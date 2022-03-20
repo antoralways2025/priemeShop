@@ -213,8 +213,8 @@ const adminForNav=()=>{
       
        
         
-        {
-            auth.user?.role !== 'admin' &&<li onClick={toggleMenu} className='relative' >
+        
+            <li onClick={toggleMenu} className='relative' >
 
     
     
@@ -239,7 +239,7 @@ const adminForNav=()=>{
         
               
            </li>
-        }
+        
 
 
        

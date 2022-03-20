@@ -36,7 +36,7 @@ function Cart() {
     
             const refreshLocalCart=async()=>{
     
-                let updateCart=[ ] ;
+                let updateCart=[] ;
     
 
 

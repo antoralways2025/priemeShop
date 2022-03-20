@@ -34,8 +34,7 @@ const ModalBox = () => {
 
 
 			// if(modal.lenght === 1) return dispatch({type:"NOTIFY",payload:{error:"Product emty"}} ) ;
-			console.log(modal.length)
-
+			
 			dispatch({type:"NOTIFY",payload:{loading:true}} ) ;
 			const res= await deleteData(`product/${item.id}`,auth.token) ;
   
