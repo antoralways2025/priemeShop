@@ -1,6 +1,6 @@
 module.exports = {
   env:{
-    "BASE_URL":"https://prime-shopping.vercel.app/",
+    "BASE_URL":"https://prime-shopping.vercel.app",
   
     "MONGODB_URL":"mongodb+srv://antoralways2025:238838@cluster0.hovms.mongodb.net/next_ecommerce?retryWrites=true&w=majority",
     "ACCESS_TOKEN_SECRET":"nMV!a@>yv.xnhK/U:6^tRK8s@bBR{bAAK$[(!C,P~<2[zRf<px",

@@ -19,11 +19,10 @@ const CartItem = ({item,cart,dispatch}) => {
     dispatch({type:"ADD_MODAL",payload:[{modalShow:true , data:cart, title:item.title ,id:item._id,type:"ADD_CART"}]})
 
     
-
   }
 
 
-   
+  
   return(
      <tr className='relative flex flex-wrap items-center justify-center m-3' >
          <td style={{maxWidth:"160px",margin:"5px"}} >

@@ -168,7 +168,7 @@ const adminForNav=()=>{
 
       <Link href='/' passHref>
     
-    <span      className="ml-2 text-lg font-semibold tracking-tight cursor-pointer first-letter:text-3xl ">Prime Shopping</span> 
+    <span      className="ml-2 text-lg font-semibold tracking-tight cursor-pointer first-letter:text-3xl ">Prime </span> 
 
     </Link>
   </div> 
