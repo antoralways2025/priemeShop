@@ -1,5 +1,5 @@
 
-import { ArrowNarrowLeftIcon } from '@heroicons/react/Outline';
+import { ArrowNarrowLeftIcon } from '@heroicons/react/solid';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React, { useContext, useEffect, useState } from 'react';

@@ -1,4 +1,4 @@
-import { ExclamationCircleIcon } from '@heroicons/react/outline';
+import { ExclamationCircleIcon } from '@heroicons/react/solid';
 import { useRouter } from 'next/router';
 import React, { useContext, useEffect, useState } from 'react';
 import Filter from '../components/Filter';

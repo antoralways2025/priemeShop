@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { ChatAltIcon, CheckIcon, CogIcon, PencilAltIcon, XIcon } from '@heroicons/react/Outline';
+import { ChatAltIcon, CheckIcon, CogIcon, PencilAltIcon, XIcon } from '@heroicons/react/solid';
 import Head from 'next/head';
 import Link from 'next/link';
 import React, { useContext } from 'react';
@@ -11,6 +11,7 @@ const Users = () => {
     const {users ,auth }=state ;
 
 
+    
     const deleteHandler= async(user)=>{
 
               dispatch({type:"ADD_MODAL",payload:[{modalShow:true ,data:'',id:user._id ,title:user.name ,type:"removeUser"}]})
